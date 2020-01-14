@@ -16,7 +16,9 @@ const BlogTemplate = ({ data }) => {
   return (
     <Layout>
       <HomeHero heroImg={blogImage} heroText={blogTitle} />
-      <p className="blog-item-description">{blogDescription}</p>
+      <div className="blog-item-div">
+        <p className="blog-item-description">{blogDescription}</p>
+      </div>
     </Layout>
   )
 }

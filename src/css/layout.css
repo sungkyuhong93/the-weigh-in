@@ -24,15 +24,20 @@ main {
   margin-top: 45px;
 }
 
-.blog-item-description {
-  text-align: center;
-  min-height: 100vh;
+.blog-item-div {
+  min-height: 50vh;
   background: #f3f3f3;
   font-family: HelveticaNeue-Light;
   padding-top: 2rem;
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.blog-item-description {
+  margin: auto;
+  max-width: 750px;
+  padding: 24px;
 }
 
 .blog-post {

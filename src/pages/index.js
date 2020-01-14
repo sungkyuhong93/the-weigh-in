@@ -19,7 +19,9 @@ const IndexPage = ({ data }) => {
             <div className="blog-post">
               <div classNme="blog-post-content">
                 <div className="blog-post-img">
-                  <Img fluid={blogpost.blogImage.fluid} />
+                  <Link to={`/blogs/${blogpost.slug}`}>
+                    <Img fluid={blogpost.blogImage.fluid} />
+                  </Link>
                 </div>
                 <div className="blog-post-link-wrap">
                   <Link
