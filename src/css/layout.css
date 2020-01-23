@@ -103,3 +103,13 @@ footer p {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+
+@media (max-width: 768px) {
+  .blogs-div {
+    flex-direction: column;
+  }
+  .blog-post {
+    width: 100%;
+  }
+}
